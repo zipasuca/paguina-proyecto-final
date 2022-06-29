@@ -1,0 +1,71 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: sans-serif;
+ background: #E6ACFF;
+}
+#contenedor {
+ background: #E7E7E5;
+ padding: 20px;
+ width: 1300px;
+ margin: 20px auto;
+}
+#logo {
+ text-align: center;    
+}
+#titulo {
+    text-align: center;
+}
+h1 {
+ font-size: 50px;
+ padding: 15px;
+}
+#menu {
+ text-align: center;
+ border-top: 1px solid;
+ border-bottom: 1px solid;
+ padding: 10px 0;
+ /*border-left: 1px solid;*/
+ /*border-right:1px solid;*/
+}
+#menu a {
+ padding: 10px 40px;
+ font-size: 19px;
+ text-decoration: none;
+ color: black;   
+}
+#menu a:hover {
+ background: #CFBBD8;
+ color: white;
+}
+#contenido img {
+ height: 480px;
+ position: relative;
+ margin: 15px 0;
+}
+#contenido p {
+ text-align: left;
+ font-size: 17px;
+ line-height: 1.50;
+}
+#contenido iframe {
+ margin: 25px 0;
+ margin-right: auto;
+ margin-left: auto;
+ display: block;
+}
+.caja_redes {
+ background-color: #E6ACFF;
+ border: 1px solid;
+ padding: 20px 0;
+ margin-top: 20px;
+ width: 1260px;
+ height: 80px;
+ text-align: center;
+}
+.caja_redes a{
+ text-decoration: none;
+}
